@@ -1,0 +1,129 @@
+body {
+    background-color: plum;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
+
+.logo span {
+    color: palevioletred;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+
+}
+.nav-links a:hover {
+    color: palevioletred;
+
+}
+
+h1 {
+    color: palevioletred;
+    font-size: 3.5rem;
+    margin-top: 40px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
+}
+
+.foto-principal {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%; /* Foto redonda */
+    border: 6px solid white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    margin: 30px 0;
+    transition: transform 0.4s;
+
+}
+table {
+    width: 85%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: white;
+    color: #444;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+
+}
+
+th {
+    background-color: palevioletred;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-custom {
+    background-color: rgba(255, 255, 255, 0.2); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.carousel-item img {
+    height: 400px; /* Altura fija para el encabezado */
+    object-fit: cover;
+}
+
+
+.footer-contacto {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 0.9rem;
+}
+
+.footer-contacto a {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+
+.table-responsive {
+    display: flex;
+    justify-content: center;
+}
+
