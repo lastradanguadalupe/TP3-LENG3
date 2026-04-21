@@ -80,7 +80,7 @@ table {
 
 th {
     background-color: palevioletred;
-    color: white;
+    color: rgb(252, 246, 249);
     padding: 15px;
     font-weight: bold;
 
@@ -89,7 +89,7 @@ th {
 
 td {
     padding: 12px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #f5add1;
 }
 
 .navbar-custom {
@@ -103,14 +103,14 @@ td {
 
 
 .carousel-item img {
-    height: 400px; /* Altura fija para el encabezado */
+    height: 400px; 
     object-fit: cover;
 }
 
 
 .footer-contacto {
     background-color: #333;
-    color: white;
+    color: rgb(243, 57, 166);
     padding: 20px 0;
     margin-top: 50px;
     font-size: 0.9rem;
